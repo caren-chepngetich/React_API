@@ -1,6 +1,6 @@
 import './index.css';
 import { useGetUsers } from "./hooks/useGetUsers";
-import UserCard from "../Atoms/UserCard";
+import UserCard from '../Atoms/UserCard';
 const Users = () => {
   const { users, error, loading } = useGetUsers();
   console.log({ users });
